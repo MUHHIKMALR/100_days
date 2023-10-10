@@ -1,0 +1,16 @@
+public class hari2 {
+    public static void main(String[] args) {
+        //penggunaan variabel assigment
+        String nama = "hikmal";// MEMUAT TEKS DITANDAI ("")
+        String nama_belakang = "ikmal";// MEMUAT TEKS DITANDAI ("")
+        int umur = 18; //MEMUAT BILANGAN BULAT(int)
+        double tinggi_badan = 160;//MEMUAT BILANGAN PECAHAN(double) 
+        char jenis_kelamin = 'L';//CUMA MEMUAT SATU HURUF/SIMBOL(char)
+        boolean belajar_coding = true;//CUMA MENGENAL BENAR/SALAH(true/false)
+        
+        System.out.println("NAMA            :"+nama);
+        System.out.println("NAMA BELAKANG   :"+nama_belakang);
+        System.out.println("UMUR            :"+umur+"thn");
+        System.out.println("TINGGI BADAN    :"+tinggi_badan+"cm");
+        System.out.println("JENIS KELAMIN   :"+jenis_kelamin);
+        System.out.println("BELAJAR CODING  :"+belajar_coding);
