@@ -1,0 +1,21 @@
+public class hari3 {
+    public static void main(String[] args) {
+        //variabel
+        int angka1 = 60;
+        int angka2 = 30;
+    
+    
+        //operator
+        int perkalian = angka1*angka2;
+        int pembagian = angka1/angka2;
+        int penjumlahan = angka1+angka2;
+        int pengurangan = angka1-angka2;
+        int modulo = angka1%angka2;
+    
+        //output
+        System.out.println("perkalian   ="+perkalian);
+        System.out.println("pembagian   ="+pembagian);
+        System.out.println("penjumlahan ="+penjumlahan);
+        System.out.println("pengurangan ="+pengurangan);
+        System.out.println("modulo      ="+modulo);
+    }
