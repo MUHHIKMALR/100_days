@@ -1,0 +1,28 @@
+package coding_100hari;
+
+import java.util.Scanner;
+
+
+public class hari4 {
+    public static void main(String[] args) {
+      //inputan dari user
+        Scanner sc = new Scanner(System.in);
+        System.out.print("masukkan nama:");
+        String input = sc.nextLine();
+        System.out.print("Masukkan NIM:");
+        String input1 =sc.nextLine();
+        System.out.print("masukkan umur:");
+        int input2 = sc.nextInt();
+        System.out.print("Masukkan Tinggi Badan:");
+        double input3 = sc.nextDouble();
+        
+        
+        
+        System.out.println("BIODATA ANDA");
+        System.out.println("NAMA        :"+input);
+        System.out.println("NIM         :"+input1);
+        System.out.println("UMUR        :"+input2+"thn");
+        System.out.println("TINGGI BADAN:"+input3+"cm");
+        
+    }
+}
