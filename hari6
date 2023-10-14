@@ -1,0 +1,18 @@
+public class hari6 {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.print("masukkan angka:");
+        int a = sc.nextInt();
+        System.out.print("masukkan angka:");
+        int b = sc.nextInt();
+        int kali= a*b;
+        int bagi= a/b;
+        int tamba= a+b;
+        int kurang= a-b;
+        System.out.println("");
+        System.out.println("hasil kali  :"+kali);
+        System.out.println("hasil bagi  :"+bagi);
+        System.out.println("hasil tambah:"+tamba);
+        System.out.println("hasil kurang:"+kurang);
+    }
+}
