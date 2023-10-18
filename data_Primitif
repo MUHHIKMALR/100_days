@@ -1,0 +1,21 @@
+package coding_100hari;
+
+
+public class dataPrimitif {
+    public static void main(String[] args) {
+        // Bilangan Bulat
+        byte maxb = 127;
+        byte minb = -128;
+        short maxs = 32767;
+        short mins = -32768;
+        int maxi = 2147483647;
+        int mini = -2147483648;
+        
+        System.out.println("nilai paling tinggi yang dapat ditampung Byte ="+maxb);
+        System.out.println("nilai paling rendah yang dapat ditampung Byte ="+minb);
+        System.out.println("nilai paling tinggi yang dapat ditampung Short ="+maxs);
+        System.out.println("nilai paling rendah yang dapat ditampung Short ="+mins);
+        System.out.println("nilai paling tinggi yang dapat ditampung Intinger ="+maxi);
+        System.out.println("nilai paling rendah yang dapat ditampung Intinger="+mini);
+    }
+}
