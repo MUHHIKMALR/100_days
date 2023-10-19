@@ -1,0 +1,16 @@
+package coding_100hari;
+
+public class percabanganif_if {
+    public static void main(String[] args) {
+        double tinggi = 166;
+        
+        if(tinggi>165){
+            System.out.println("lolos tes. selanjutnya");
+        }if(tinggi<165){
+            System.out.println("gugur");
+        }
+        
+        
+        
+    }
+}
