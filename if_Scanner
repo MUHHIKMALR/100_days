@@ -1,0 +1,24 @@
+package fileaa;
+
+import java.util.Scanner;
+
+
+public class if_input {
+    public static void main(String[] args) {
+        Scanner input= new Scanner(System.in);
+        System.out.print("masukkan nilai: ");
+        int nilai = input.nextInt();
+        
+        if(nilai >= 80 && nilai<=100){
+            System.out.println("A");
+        }if(nilai >= 65 && nilai < 80){
+            System.out.println("B");
+        }if(nilai >= 50 && nilai < 65 ){
+            System.out.println("C");
+        }if(nilai >= 30 && nilai < 50){
+            System.out.println("D");
+        }if(nilai < 30){
+            System.out.println("E");
+        }
+    }
+}
