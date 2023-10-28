@@ -1,0 +1,36 @@
+
+package fileaa;
+
+import java.util.Scanner;
+
+
+public class perbandingan_operator {
+    public static void main(String[] args) {
+        Scanner a = new Scanner(System.in);
+        System.out.println("nilai yang ingin dibandingkan");
+        System.out.print("naila pertama: ");
+        int n1 =a.nextInt();
+        System.out.print("nilai kedua: ");
+        int n2 =a.nextInt();
+        
+        boolean sama=(n1==n2);
+            
+        
+        boolean lebihsama=(n1>=n2);
+            
+        boolean kurangsama=(n1<=n2);
+            
+        boolean lebihdari=(n1>n2);
+            
+        boolean kurangdari=(n1<n2);
+            
+        boolean tidaksama=(n1!=n2);
+            
+        System.out.println("nilai(==)"+sama);
+        System.out.println("nilai (>=)"+lebihsama);
+        System.out.println("nilai (<=)"+kurangsama);
+        System.out.println("nilai (>)"+lebihdari);
+        System.out.println("nilai (<)"+kurangdari);
+        
+    }
+}
