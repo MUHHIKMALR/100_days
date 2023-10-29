@@ -1,0 +1,35 @@
+package fileaa;
+
+import java.util.Scanner;
+
+
+
+public class operator_logika {
+    public static void main(String[] args) {
+        byte umur = 20;
+        boolean sim = true;
+        
+        if(umur >=17 && sim){
+            System.out.println("aman dari polisi");
+        
+        }
+        
+        byte nilai = 80;
+        if(nilai >79 || nilai < 101){
+            System.out.println("Lulusan terbaik");
+        }
+        
+        Scanner sc = new Scanner(System.in);
+        System.out.print("masukkan bilangan bulat: ");
+        int bilangan_bulat = sc.nextInt();
+        
+        int periksa_bilangan = ~bilangan_bulat;
+        System.out.println("nilai yg sudah diubah: "+periksa_bilangan);
+        
+        
+        
+        
+        
+        
+    }
+}
