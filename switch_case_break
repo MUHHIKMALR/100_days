@@ -1,0 +1,44 @@
+package fileaa;
+
+import java.util.Scanner;
+
+public class switch_case_break {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.print("pilih(1-7) untuk menunjukkan hari: ");
+        int masukan_user =sc.nextInt();
+        
+        String hariji;
+        
+        switch(masukan_user){
+            case 1:
+                hariji="SENIN";
+                break;
+            case 2:
+                hariji="SELASA";
+                break;
+            case 3:
+                hariji="RABU";
+                break;
+            case 4:
+                hariji="KAMIS";
+                break;
+            case 5:
+                hariji="jumat";
+                break;
+            case 6:
+                hariji="SABTU";
+                break;
+            case 7:
+                hariji="AHAD";
+                break;
+            default:
+                hariji="RABUN O ATAU BUTA COBA LIAT ULANG PILIHANNYA";
+                break;
+        }
+        
+        System.out.println("Hari yang dipilih:" +hariji);
+        sc.close();
+        
+    }
+}
