@@ -1,0 +1,21 @@
+package fileaa;
+
+import java.util.Scanner;
+
+
+public class do_while_operator_penugasan {
+    public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
+        int angka =0;
+        int apdet;
+        
+        do{
+            System.out.print("masukkan angka/0 untuk berhenti: ");
+            apdet =in.nextInt();
+            angka += apdet;
+        }while(apdet !=0);
+        System.out.println("total angka yang anda masukkan: "+angka);
+        
+        in.close();
+    }
+}
