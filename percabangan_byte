@@ -1,0 +1,23 @@
+package fileaa;
+
+import java.util.Scanner;
+
+
+public class percabangan_byte {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.print("masukkan ukuran sepatumu: ");
+        byte sepatu=sc.nextByte();
+        
+        if(sepatu >40 && sepatu<95){
+            System.out.println("sepatu yang cocok untukmu [ardiles,carfil,adidas]");
+        }else if(sepatu < 40){
+            System.out.println("sepatu yang cocok untukmu[newera,nike,esik]");
+        }else{
+            System.out.println("menu tidak tersedia");
+        }
+        
+        
+    }
+}
+
