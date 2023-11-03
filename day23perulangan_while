@@ -1,0 +1,13 @@
+package fileaa;
+
+
+public class perulangan_bytee {
+    public static void main(String[] args) {
+        byte a = 1;
+        
+        while(a<6){
+            System.out.println("while ke-"+a);
+            a++;
+        }
+    }
+}
