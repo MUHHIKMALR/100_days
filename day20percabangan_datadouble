@@ -1,0 +1,22 @@
+package fileaa;
+
+import java.util.Scanner;
+
+
+public class percabangan_tipedatadouble {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.print("masukkan berat badan: ");
+        double badan = sc.nextDouble();
+        
+        
+        if(badan >= 50 && badan <90){
+            System.out.println("Berat badan ideal atau normal");
+        }else if(badan <50){
+            System.out.println("Kekurangan berat badan atau kurus");
+        }else{
+            System.out.println("Berat badan berlebih atau obesitas");
+        }
+    }
+}
+
