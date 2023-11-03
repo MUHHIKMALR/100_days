@@ -2,7 +2,7 @@ package coding_100hari;
 
 import java.util.Scanner;
 
-public class hari7 {
+public class hari11 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("Masukkan alas:");
