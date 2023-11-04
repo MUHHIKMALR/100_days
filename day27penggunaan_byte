@@ -1,0 +1,13 @@
+package fileaa;
+
+
+public class penggunaan_byte {
+    public static void main(String[] args) {
+        byte bil=8;
+        byte angan=9;
+        
+        byte tambah =(byte)(bil+angan);
+        System.out.println("hasil penjumlahan="+tambah);
+        
+    }
+}
