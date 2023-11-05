@@ -1,0 +1,16 @@
+
+package fileaa;
+
+public class perkalian_byte {
+    public static void main(String[] args) {
+        byte a = 30;
+        byte b = 20;
+        
+        byte ab= (byte) (a*b);
+        System.out.println("hasil kali byte: "+ab);
+        
+       
+        
+
+    }
+}
