@@ -1,0 +1,16 @@
+package fileaa;
+
+public class modulus_byte {
+    public static void main(String[] args) {
+        byte unsu =127;
+        byte lbar =83;
+    
+        byte unsulbar = (byte) (unsu%lbar);
+        
+        System.out.println("hasil modulus: "+unsulbar);
+    
+        
+       
+    }
+    
+}
