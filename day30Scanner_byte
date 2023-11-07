@@ -1,0 +1,17 @@
+package fileaa;
+
+import java.util.Scanner;
+
+
+public class Scanner_byte {
+    public static void main(String[] args) {
+        Scanner uku = new Scanner(System.in);
+        System.out.print("masukkan umur: ");
+        byte ran = uku.nextByte();
+        
+        
+        
+        System.out.println("umur kamu: "+ran+" thn");
+        
+    }
+}
