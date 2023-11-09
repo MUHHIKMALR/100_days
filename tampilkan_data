@@ -1,5 +1,0 @@
-public class days1 {
-    public static void main(String[] args) {
-        System.out.println("Cara tampilkan Hello World! di java");
-    }
-}
