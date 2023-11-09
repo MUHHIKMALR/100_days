@@ -1,0 +1,13 @@
+package fileaa;
+
+
+public class penggunaan_int {
+    public static void main(String[] args) {
+        int ang= 50;
+        int ka = 50;
+        
+        int angka= ang+ka;
+        
+        System.out.println("hasil: "+angka);
+    }
+}
