@@ -1,0 +1,12 @@
+package fileaa;
+
+public class kombinasi_Bayte_int {
+    public static void main(String [] args) {
+    byte maha=46;
+    byte siswa=99;
+    int mahasiswa=maha+siswa;
+    System.out.println("jumlah mahasiswa: "+mahasiswa) 
+
+    }
+
+}
