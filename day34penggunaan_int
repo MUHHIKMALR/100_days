@@ -1,0 +1,13 @@
+package fileaa;
+
+
+public class perkalian_int {
+    public static void main(String[] args) {
+        int sa=23;
+        int kit=54;
+        
+        int cara1=sa*kit;
+        System.out.println("cara1: "+cara1);
+        System.out.println("cara2: "+23*54);
+    }
+}
