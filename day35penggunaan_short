@@ -1,0 +1,12 @@
+package fileaa;
+
+public class penggunaan_short {
+    public static void main(String[] args) {
+        short ni = 20000;
+        short lai= 10000;
+        
+        short nilai= (short)(ni+lai);
+        
+        System.out.println("nilainya: "+nilai);
+    }
+}
