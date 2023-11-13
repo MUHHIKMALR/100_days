@@ -1,0 +1,13 @@
+package fileaa;
+
+
+public class perkaliann_short {
+    public static void main(String[] args) {
+        short ka = 234;
+        short li = 78;
+        
+        short kali= (short)(ka*li);
+        
+        System.out.println("hasil: "+kali);
+    }
+}
