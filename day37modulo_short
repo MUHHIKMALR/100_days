@@ -1,0 +1,12 @@
+package fileaa;
+
+public class modulo_short {
+    public static void main(String[] args) {
+        short mo =89;
+        short dulo=6;
+        
+        short modulo= (short)(mo%dulo);
+        
+        System.out.println("hasil modulo: "+modulo);
+    }
+}
