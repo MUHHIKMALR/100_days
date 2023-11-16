@@ -1,0 +1,24 @@
+package beljars3m1;
+
+
+public class shortt_penugasaan {
+    public static void main(String[] args) {
+        short q=0;
+        short e=0;
+        
+        short zilong= (short)(q+e);
+        System.out.println(""+zilong);
+        zilong+=1;
+        System.out.println("First Blood: "+zilong);
+        zilong+=1;
+        System.out.println("Double Kill: "+zilong);
+        zilong+=1;
+        System.out.println("Tripell kill: "+zilong);
+        zilong+=1;
+        System.out.println("Maniacs: "+zilong);
+        zilong+=1;
+        System.out.println("Savage: "+zilong);
+        zilong-=5;
+        System.out.println("Shutdown: "+zilong);
+    }
+}
