@@ -1,0 +1,16 @@
+package fileaa;
+
+
+public class day40short_penugasan {
+    public static void main(String[] args) {
+        short bo=5000;
+        short ba=0;
+        
+        short boba = (short)(bo+ba);
+        System.out.println("harga boba: "+boba);
+        
+        boba+=2000;
+        
+        System.out.println("haraga dengan toping: "+boba);
+    }
+}
