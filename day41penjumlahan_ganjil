@@ -1,0 +1,15 @@
+package fileaa;
+
+public class day41penjumlahan_ganjil {
+    public static void main(String[] args) {
+        int nilai=10;
+        int k=0;
+        
+        for(int i=0;i<nilai;i++){
+            if(i%2==1){
+                k+=i;
+            }
+        }
+        System.out.println("penjumlahan bilangan ganjil: "+k);
+    }
+}
