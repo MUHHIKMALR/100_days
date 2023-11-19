@@ -1,0 +1,13 @@
+package fileaa;
+
+
+public class day42tipedata_char {
+    public static void main(String[] args) {
+        char uku='A';
+        char ran='B';
+        
+        
+        System.out.println("informatika "+uku);
+        System.out.println("informatika "+ran);
+    }
+}
