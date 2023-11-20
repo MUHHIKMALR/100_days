@@ -1,0 +1,12 @@
+package fileaa;
+
+
+public class day43penggunaan_long {
+    public static void main(String[] args) {
+        long zx25r=120000000;
+        long h2= 860000000;
+        
+        System.out.println("harga motor impian ZX25R: "+"Rp"+zx25r);
+        System.out.println("harga motor impian H2: "+"Rp"+h2);
+    }
+}
