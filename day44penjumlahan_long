@@ -1,0 +1,20 @@
+package fileaa;
+
+
+public class day44penjumlahan_long {
+    public static void main(String[] args) {
+        long anak=5500;
+        long wanita=3500;
+        long luka=30000;
+        long hilang=6000;
+        
+        long total_korban=anak+wanita+luka+hilang;
+        System.out.println("PENGUMUMAN KANTOR MEDIA PEMERINTAH GAZA PADA 19 NOVEMBER 2023");
+        System.out.println("Anak-anak   : "+anak+" jiwa");
+        System.out.println("Wanita      : "+wanita+" jiwa");
+        System.out.println("Luka-luka   : "+luka+" jiwa");
+        System.out.println("Hilang      : "+hilang+" jiwa");
+        System.out.println("Total Korban: "+total_korban+" jiwa");
+        
+    }
+}
