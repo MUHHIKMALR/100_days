@@ -1,0 +1,13 @@
+package fileaa;
+
+public class pengurangan_long {
+    public static void main(String[] args) {
+        long tahun2022=275770000;
+        long tahun2023=278800000;
+        
+        long selisi=tahun2023-tahun2022;
+        
+        System.out.println("selisih jumlah penduduk dari tahun 2022 dan 2023: "+selisi+" jiwa");
+        
+    }
+}
