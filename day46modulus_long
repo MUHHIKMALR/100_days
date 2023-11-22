@@ -1,0 +1,14 @@
+package fileaa;
+
+public class day46modulus_long {
+    public static void main(String[] args) {
+        long mod=429582454;
+        long ulus=23942034;
+        
+        long modulus=mod%ulus;
+        
+        System.out.println("hasil modulus: "+modulus);
+        
+        
+    }
+}
