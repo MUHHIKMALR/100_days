@@ -1,7 +1,7 @@
 package fileaa;
 
 
-public class day46penggunaan_float {
+public class day47penggunaan_float {
     public static void main(String[] args) {
         double utang22=7.55425;
         double utang23=7.78751;
