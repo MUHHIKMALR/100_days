@@ -1,0 +1,19 @@
+package fileaa;
+
+
+public class day46penggunaan_float {
+    public static void main(String[] args) {
+        double utang22=7.55425;
+        double utang23=7.78751;
+        
+        
+        
+        System.out.println("Hutang indonesia di tahun 2022: "+utang22+" Triliun");
+        System.out.println("Hutang indonesia di tahun 2023: "+utang23+" Triliun");
+        
+        
+        
+    }
+    
+    
+}
