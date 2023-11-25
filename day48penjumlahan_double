@@ -1,0 +1,13 @@
+package fileaa;
+
+
+public class day47penjumlahan_double {
+    public static void main(String[] args) {
+        double cincin=3.5;
+        double kalung=4.2;
+        
+        double maskawin = cincin+kalung;
+        
+        System.out.println("Berat total Maskawin: "+maskawin+" gram");
+    }
+}
