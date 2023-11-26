@@ -1,0 +1,21 @@
+package fileaa;
+
+import java.util.Scanner;
+
+
+public class day49Scanner_double {
+    public static void main(String[] args) {
+        Scanner sc =new Scanner(System.in);
+        System.out.println("Beli Emas Antam");
+        System.out.print("Berapa gram: ");
+        double gram=sc.nextDouble();
+        double pergram=900000;
+        
+        double harga_emas_antam=pergram*gram;
+        
+        System.out.println("Harga Emas Antam: "+"Rp"+harga_emas_antam);
+        
+        
+        
+    }
+}
