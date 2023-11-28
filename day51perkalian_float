@@ -1,0 +1,13 @@
+package fileaa;
+
+
+public class day51perkalian_float {
+    public static void main(String[] args) {
+        float per=46;
+        float pus=99;
+        
+        float perpus=per*pus;
+        
+        System.out.println("Hasil perkalian tipe data float: "+perpus);
+    }
+}
