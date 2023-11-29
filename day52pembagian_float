@@ -1,0 +1,12 @@
+package fileaa;
+
+public class day52pembagian_float {
+    public static void main(String[] args) {
+        float fak=7;
+        float ultas=10;
+        
+        float fakultas=fak/ultas;
+        
+        System.out.println("Hasil pembagian tipe data float: "+fakultas);
+    }
+}
