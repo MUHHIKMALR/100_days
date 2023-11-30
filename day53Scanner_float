@@ -1,0 +1,19 @@
+package fileaa;
+
+import java.util.Scanner;
+
+
+public class day53Scanner_float {
+    public static void main(String[] args) {
+        Scanner inf=new Scanner(System.in);
+        System.out.print("Masukkan angka pertama: ");
+        float tek =inf.nextFloat();
+        System.out.print("Masukkan angka kedua: ");
+        float nik =inf.nextFloat();
+        
+        float teknik=tek+nik;
+        
+        System.out.println("Total angka Float: "+teknik);
+        
+    }
+}
