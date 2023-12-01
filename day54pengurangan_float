@@ -1,0 +1,13 @@
+package fileaa;
+
+
+public class day54pengurangan_float {
+    public static void main(String[] args) {
+        float hujan=19;
+        float deras=57;
+        
+        float banjir = hujan+deras;
+        
+        System.out.println("Hasil pengurangan tipe data float : "+sulawesi);
+    }
+}
