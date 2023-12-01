@@ -8,6 +8,6 @@ public class day54pengurangan_float {
         
         float banjir = hujan+deras;
         
-        System.out.println("Hasil pengurangan tipe data float : "+sulawesi);
+        System.out.println("Hasil pengurangan tipe data float : "+banjir);
     }
 }
