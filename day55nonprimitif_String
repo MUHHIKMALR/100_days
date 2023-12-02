@@ -1,0 +1,10 @@
+package fileaa;
+
+
+public class day55nonprimitif_String {
+    public static void main(String[] args) {
+        
+        String nama = "HIKMAL";
+        System.out.println("Nama: " + nama);
+
+}
