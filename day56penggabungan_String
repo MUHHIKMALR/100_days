@@ -1,0 +1,13 @@
+package fileaa;
+
+
+public class day56penggabungan_String {
+    public static void main(String[] args) {
+        String namabelakang="HIKMAL";
+        String namadepan="MUH";
+        
+        String digabung=namadepan+" "+namabelakang;
+        System.out.println("Nama Lengkap: "+digabung);
+       
+    }
+}
