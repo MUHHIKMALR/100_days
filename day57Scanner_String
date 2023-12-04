@@ -1,0 +1,16 @@
+package fileaa;
+
+import java.util.Scanner;
+
+public class day57Scanner_String {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Masukkan nama: ");
+        String nama=sc.nextLine();
+        System.out.print("Masukkan hobi: ");
+        String hobi=sc.nextLine();
+        
+        System.out.println("nama:"+nama);
+        System.out.println("hobi:"+hobi);
+    }
+}
