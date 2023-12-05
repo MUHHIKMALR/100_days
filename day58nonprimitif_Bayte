@@ -1,0 +1,10 @@
+package fileaa;
+
+
+public class day58nonprimitif_Bayte {
+    public static void main(String[] args) {
+       Byte ukuran_sepatu= 45;
+       
+        System.out.println("Ukuran Sepatu: "+ukuran_sepatu);
+    }
+}
