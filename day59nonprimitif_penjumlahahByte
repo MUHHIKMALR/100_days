@@ -1,0 +1,13 @@
+package fileaa;
+
+
+public class day59nonprimitif_penjumlahahByte {
+    public static void main(String[] args) {
+        Byte infor = 32;
+        Byte matika = 24;
+        
+        int informatika = infor+matika;
+        
+        System.out.println("jumlah mahasiswa informatika: "+informatika+" orang");
+    }
+}
