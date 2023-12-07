@@ -1,0 +1,14 @@
+package fileaa;
+
+
+public class day60nonprimitif_penguranganByte {
+    public static void main(String[] args) {
+        Byte inf_C = 43;
+        Byte inf_D = 26;
+        
+        int selisih  = inf_C-inf_D;
+        
+        System.out.println("selisih jumlah informatika C dengan informatika D : "+selisih+" orang");
+    }
+
+}
