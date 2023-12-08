@@ -1,0 +1,13 @@
+package fileaa;
+
+
+public class day61nonprimitif_perkalianByte {
+    public static void main(String[] args) {
+        Byte anis=83;
+        Byte baswedan=2;
+        
+        int suara=anis*baswedan;
+        
+        System.out.println("hasil suara anis baswedan dua kalilipat di daerah sendana: "+suara+" suara");
+    }
+}
