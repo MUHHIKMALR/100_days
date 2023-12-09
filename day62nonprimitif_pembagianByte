@@ -1,0 +1,13 @@
+package fileaa;
+
+
+public class day61nonprimitif_perkalianByte {
+    public static void main(String[] args) {
+        Byte infc=38;
+        Byte perkelompok=4;
+        
+        int totalkelompok=infc/perkelompok;
+        
+        System.out.println("jumlah kelompok informatika c: "+totalkelompok);
+    }
+}
