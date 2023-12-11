@@ -1,0 +1,11 @@
+
+package fileaa;
+
+
+public class day64nonprimitif_Short {
+    public static void main(String[] args) {
+        Short datanon=24434;
+        
+        System.out.println("Pemanggilan Short nonprimitif: "+datanon);
+    }
+}
