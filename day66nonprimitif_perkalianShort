@@ -1,0 +1,15 @@
+
+package fileaa;
+
+public class day66nonprimitif_perkalianShort {
+    public static void main(String[] args) {
+        Short da = 72;
+        Short ta= 32;
+
+        
+        Short data = (short) (da + ta);
+
+        
+        System.out.println("perkalian data nonprimitif Short: " + data);
+    }
+}
