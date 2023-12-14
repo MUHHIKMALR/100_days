@@ -6,7 +6,7 @@ public class day67nonprimitif_pembagianShort {
         Short biasa= 38;
 
         
-        Short luarbiasa = (short) (luar + biasa);
+        Short luarbiasa = (short) (luar / biasa);
 
         
         System.out.println("pembagian data nonprimitif Short: " + luarbiasa);
