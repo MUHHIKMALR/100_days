@@ -1,0 +1,14 @@
+package fileaa;
+
+public class day67nonprimitif_pembagianShort {
+     public static void main(String[] args) {
+        Short luar = 92;
+        Short biasa= 38;
+
+        
+        Short luarbiasa = (short) (luar + biasa);
+
+        
+        System.out.println("pembagian data nonprimitif Short: " + luarbiasa);
+    }
+}
