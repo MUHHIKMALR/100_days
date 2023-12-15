@@ -1,0 +1,14 @@
+package fileaa;
+
+public class day68nonprimitif_modulusShort {
+     public static void main(String[] args) {
+        Short indo = 58;
+        Short nesia= 23;
+
+        
+        Short indonesia = (short) (indo % nesia);
+
+        
+        System.out.println("Modulus data nonprimitif Short: " + indonesia);
+    }
+}
