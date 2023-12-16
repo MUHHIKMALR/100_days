@@ -1,0 +1,11 @@
+package fileaa;
+
+public class day69nonprimitif_Integer {
+    public static void main(String[] args) {
+        Integer onic=3;
+        Integer apbren=0;
+        
+        System.out.println("Hasil pertandingan");
+        System.out.println("ONIC ESPORTS "+onic+"-"+apbren+" AP BREN");
+    }
+}
