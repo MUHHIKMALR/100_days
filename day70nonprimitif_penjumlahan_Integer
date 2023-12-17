@@ -1,0 +1,14 @@
+
+package fileaa;
+
+
+public class day70nonprimitif_penjumlahan_Integer {
+    public static void main(String[] args) {
+        Integer faku=234;
+        Integer ltas=567;
+        
+        Integer fakultas=faku+ltas;
+        
+        System.out.println("hasil penjumlahan nonprimitif Integer: "+fakultas);
+    }
+}
