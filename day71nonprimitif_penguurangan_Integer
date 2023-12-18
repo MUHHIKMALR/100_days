@@ -1,0 +1,13 @@
+
+package fileaa;
+
+public class day71nonprimitif_penguurangan_Integer {
+    public static void main(String[] args) {
+        Integer nge=23;
+        Integer trol=16;
+        
+        Integer ngetrol= nge-trol;
+        
+        System.out.println("Hasil pengurangan nonprimitif Integer: "+ngetrol);
+    }
+}
