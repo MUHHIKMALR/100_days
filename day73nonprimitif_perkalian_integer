@@ -1,0 +1,13 @@
+package fileaa;
+
+
+public class day72nonprimitif_perkalian_integer {
+    public static void main(String[] args) {
+        Integer ka=34;
+        Integer li=12;
+        
+        Integer kali=ka*li;
+        
+        System.out.println("perkalian Nonprimitif Integer: "+kali);
+    }
+}
