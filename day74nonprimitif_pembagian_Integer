@@ -1,0 +1,14 @@
+
+package fileaa;
+
+
+public class day74nonprimitif_pembagian_Integer {
+    public static void main(String[] args) {
+        Integer ba=1234;
+        Integer gi=32;
+        
+        Integer bagi=ba/gi;
+        
+        System.out.println("pembagian Nonprimitif Integer: "+bagi);
+    }
+}
