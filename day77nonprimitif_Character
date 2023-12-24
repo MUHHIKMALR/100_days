@@ -1,0 +1,12 @@
+
+package fileaa;
+
+
+public class day77nonprimitif_Character {
+    public static void main(String[] args) {
+        Character aku='A';
+        
+        
+        System.out.println("nilai character nilai aku: "+aku );
+    }
+}
