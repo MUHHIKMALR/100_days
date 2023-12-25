@@ -1,0 +1,11 @@
+
+package fileaa;
+
+public class day78nonprimitif_gabungCharacter {
+    public static void main(String[] args) {
+        Character kode1 = 'Z';
+        Character kode2 = 'x';
+        
+        System.out.println("gabungan kode: "+kode1+kode2);
+    }
+}
