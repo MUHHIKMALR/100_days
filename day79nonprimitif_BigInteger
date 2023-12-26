@@ -1,0 +1,22 @@
+package fileaa;
+
+import java.math.BigInteger;
+
+
+public class day79nonprimitif_BigInteger {
+    public static void main(String[] args) {
+        
+        BigInteger nilai1 = new BigInteger("123456789012345678901234567890");
+        
+        String number2 = "987654321098765432109876543210";
+        BigInteger nilai2 = new BigInteger(number2);
+
+        
+        
+        System.out.println("cara pemanggilan pertama: "+nilai1);
+        
+        System.out.println("cara pemanggilan kedua: "+nilai2);
+
+
+    }
+}
