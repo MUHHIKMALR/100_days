@@ -1,0 +1,16 @@
+package fileaa;
+
+import java.math.BigInteger;
+
+
+public class day80nonpromitif_penjumlahan_BigInteger {
+    public static void main(String[] args) {
+        BigInteger tam=new BigInteger("13245678976543345673567");
+        BigInteger bah=new BigInteger("16579846392850345833982");
+        
+        BigInteger tambah=tam.add(bah);
+        
+        System.out.println("hasil penjumlahan BigInteger: "+tambah);
+        
+    }
+}
