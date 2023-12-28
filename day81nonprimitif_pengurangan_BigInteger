@@ -1,0 +1,14 @@
+package fileaa;
+
+import java.math.BigInteger;
+
+public class day81nonprimitif_pengurangan_BigInteger {
+    public static void main(String[] args) {
+        BigInteger kur=new BigInteger("222222222222222222222222222222");
+        BigInteger ang=new BigInteger("111111111111111111111111111111");
+        
+        BigInteger kurang=kur.subtract(ang);
+        
+        System.out.println("hasil pengurangan BigInteger: "+kurang);
+    }
+}
