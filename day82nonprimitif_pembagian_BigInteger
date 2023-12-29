@@ -1,0 +1,15 @@
+package fileaa;
+
+import java.math.BigInteger;
+
+public class day82nonprimitif_pembagian_BigInteger {
+    public static void main(String[] args) {
+        BigInteger ba=new BigInteger("789679668687568574653452532323536547658568");
+        BigInteger gi=new BigInteger("17865798074678674854784755");
+        
+        BigInteger bagi=ba.divide(gi);
+        
+        System.out.println("hasil pembagian BigInteger: "+bagi);
+    }
+    
+}
