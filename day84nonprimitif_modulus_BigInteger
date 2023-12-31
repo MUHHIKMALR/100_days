@@ -1,0 +1,16 @@
+
+package fileaa;
+
+import java.math.BigInteger;
+
+
+public class day84nonprimitif_modulus_BigInteger {
+    public static void main(String[] args) {
+        BigInteger mod=new BigInteger("200000000000000000000000000000000000000023");
+        BigInteger ulus=new BigInteger("2000000000000000000000000000000000000024");
+        
+        BigInteger modulus=mod.remainder(ulus);
+        
+        System.out.println("sisabagi/modulus BigInteger: "+modulus);
+    }
+}
