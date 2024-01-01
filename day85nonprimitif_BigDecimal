@@ -1,0 +1,16 @@
+
+package fileaa;
+
+import java.math.BigDecimal;
+
+
+public class day85nonprimitif_BigDecimal {
+    public static void main(String[] args) {
+        String nilai11= "123456789055555555552222222222.22222222211111111110987654321";
+        BigDecimal decimal= new BigDecimal(nilai11);
+        
+        System.out.println("pemanggilan nilai BigDecimal: "+decimal);
+        
+        
+    }
+}
