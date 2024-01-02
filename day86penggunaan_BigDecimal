@@ -1,0 +1,12 @@
+package fileaa;
+
+import java.math.BigDecimal;
+
+
+public class day86penggunaan_BigDecimal {
+    public static void main(String[] args) {
+        BigDecimal nilai = new BigDecimal("123451231231326789012345.6789012342143414313567890");
+        
+        System.out.println("pemanggilan nilai BigDecimal: "+nilai);
+    }
+}
