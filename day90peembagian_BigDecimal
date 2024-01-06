@@ -1,0 +1,16 @@
+
+package fileaaaaa;
+
+import java.math.BigDecimal;
+
+public class day90peembagian_BigDecimal {
+    public static void main(String[] args) {
+        BigDecimal ba= new BigDecimal("10.5");
+        BigDecimal gi= new BigDecimal("2.5");
+        
+        BigDecimal bagi=ba.divide(gi);
+        
+        System.out.println("Hasil pembagian BigDecimal: "+bagi);
+        
+    }
+}
