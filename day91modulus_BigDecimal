@@ -1,0 +1,15 @@
+
+package fileaa;
+
+import java.math.BigDecimal;
+
+public class day91modulus_BigDecimal {
+    public static void main(String[] args) {
+        BigDecimal mod= new BigDecimal("2000000000000000000000000000000000000.5555555555555555555");
+        BigDecimal ulus= new BigDecimal("111111111111111111111111111111111111.2222222222222222222");
+        
+        BigDecimal modulus =mod.remainder(ulus);
+        
+        System.out.println("hasil modulus/sisabagi: "+modulus);
+    }
+}
