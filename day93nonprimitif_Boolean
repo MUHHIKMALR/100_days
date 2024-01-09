@@ -1,0 +1,15 @@
+
+package fileaa;
+
+
+
+public class day93nonprimitif_Boolean {
+    public static void main(String[] args) {
+        Boolean data_benar= true;
+        Boolean data_salah= false;
+        
+        System.out.println("isi data benar: "+data_benar);
+        System.out.println("isi data salah: "+data_salah);
+        
+    }
+}
