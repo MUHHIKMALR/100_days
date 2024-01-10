@@ -1,0 +1,19 @@
+
+package fileaa;
+
+
+public class day94nonprimitif_operasiLogika_Boolean {
+    public static void main(String[] args) {
+        Boolean anis= true;
+        Boolean perubahan= true;
+        Boolean dinasti_disetir_banteng= false;
+        
+        Boolean amin=anis && perubahan;
+        Boolean gemoy= perubahan || dinasti_disetir_banteng;
+        Boolean petugas_partai= !dinasti_disetir_banteng;
+        
+        System.out.println("logika (AND). Amin: "+amin);
+        System.out.println("Logika (OR). Gemoy: "+gemoy);
+        System.out.println("Logika (NOt). Banteng: "+petugas_partai);
+    }
+}
