@@ -1,0 +1,12 @@
+
+package fileaa;
+
+public class day95koversi_String_ke_Int {
+    public static void main(String[] args) {
+        String nilai ="2024";
+        
+        int angka=Integer.parseInt(nilai);
+        
+        System.out.println("Nilai String yang dikonversi ke Int: "+angka);
+    }
+}
