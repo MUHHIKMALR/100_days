@@ -1,0 +1,13 @@
+
+package fileaa;
+
+public class day96konversi_String_ke_double {
+    public static void main(String[] args) {
+        String nilaid= "9.99";
+        
+        double angkad=Double.parseDouble(nilaid);
+        
+        System.out.println("hasil konversi String ke tipe data double: "+angkad);
+        
+    }
+}
