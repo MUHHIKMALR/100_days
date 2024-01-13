@@ -1,0 +1,12 @@
+
+package fileaa;
+
+public class day97konversi_String_ke_short {
+    public static void main(String[] args) {
+        String nilshotr="34";
+        
+        short angshort=Short.parseShort(nilshotr);
+        
+        System.out.println("hasil konversi String ke short: "+angshort);
+    }
+}
