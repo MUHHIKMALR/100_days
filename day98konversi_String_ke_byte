@@ -1,0 +1,15 @@
+
+package fileaa;
+
+public class day98konversi_String_ke_byte {
+    public static void main(String[] args) {
+        String str="12";
+        
+        
+        byte nilai=Byte.parseByte(str);
+        
+        
+        
+        System.out.println("hasil pengkonvesian: "+nilai);
+    }
+}
