@@ -1,0 +1,13 @@
+
+package fileaa;
+
+
+public class day99konversi_int_ke_String {
+    public static void main(String[] args) {
+        int no=99;
+        
+        String sembilan_sembilan=Integer.toString(no);
+        
+        System.out.println("hasil pengkonversian: "+sembilan_sembilan);
+    }
+}
