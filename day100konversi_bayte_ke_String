@@ -1,0 +1,13 @@
+
+package fileaa;
+
+
+public class day100konversi_bayte_ke_String {
+    public static void main(String[] args) {
+        byte angka=100;
+        
+        String seratus=Byte.toString(angka);
+        
+        System.out.println("hasil pengkonversian bayte ke String: "+seratus);
+    }
+}
